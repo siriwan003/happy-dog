@@ -10,7 +10,7 @@ async function startServer() {
     await connectMongo(process.env.MONGO_URI);
 
     app.listen(PORT, () => {
-        console.log(`Server runing at http://localhost:${PORT}`);
+        console.log(`Server runing  http://localhost:${PORT}`);
         
     })
 }
